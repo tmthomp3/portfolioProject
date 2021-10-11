@@ -7,6 +7,7 @@ h1,h2,h3{
 }
 h2{
     color: #3046c5;
+
 }
 header h2{
     color: #cec8ff;
@@ -24,12 +25,10 @@ header h2{
     color: black;
     
 }
-
-.row-content{
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+.centered{
+    text-align: center;
 }
+
 
 .navbar{
     background-color: #901CAD;
@@ -45,4 +44,15 @@ header h2{
 }
 .carousel{
     border: solid #5637dd;
+}
+.card {
+    border: solid black 2px;
+    margin: 30px;
+   padding: 30px;
+   text-align: center
+};
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: contain;
 }

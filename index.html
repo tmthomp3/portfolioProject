@@ -4,66 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
+<!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" /> <!-- FontAwesome -->
+<!-- FontAwesome -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" /> 
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" /> <!-- Lobster Font will need to be changed  -->
+<!-- Lobster Font will need to be changed  -->    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     <link rel="stylesheet" href="css/styles.css" />
     <title>CodeFree- Because...Tradesies </title>
 </head>
 <!-- Header -->
-<header class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                <img src="#"class="img-fluid"><!-- This will need to be updated with the logo -->
-             </div>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="#"class="img-fluid"><!-- This will need to be updated with the logo -->
+                </div>
 
-            <div class="col">
-                <h1>CodeFree</h1>
-                <h2>Because...Tradesies</h2>                    
-            </div>
-        </div>
-    </div>
-</header>
-<!-- End Header -->
-
-<!-- Begin Body -->
-<body>
-    <div class="container">
-        <div class="row">   
-            <div class="col col-md-4">
-                <span>
-                    <h2> Wanna Trade?</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias vitae qui sunt id sed atque assumenda pariatur dignissimos dicta suscipit molestias laboriosam aut ad error quam mollitia dolor, repellendus animi?</p>
-                </span>
-            </div>
-
-            <div class="card">
-                <span>
-                    <h2> Are you a Non-Profit Business? </h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias vitae qui sunt id sed atque assumenda pariatur dignissimos dicta suscipit molestias laboriosam aut ad error quam mollitia dolor, repellendus animi?</p>
-                </span>    
-            </div>
-
-            <div class="card">
-                <div class="card-body">
-                    <h2> Are you a developer? </h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias vitae qui sunt id sed atque assumenda pariatur dignissimos dicta suscipit molestias laboriosam aut ad error quam mollitia dolor, repellendus animi?</p>
+                <div class="col">
+                    <h1>CodeFree</h1>
+                    <h2>Because...Tradesies</h2>                    
                 </div>
             </div>
         </div>
-    </div>    
-<!-- Bootstrap Scripts  -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
- <!-- Tooltip Script  -->   
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
+    </header>
+<!-- End Header -->
+<!-- Begin Body -->
+<body> 
+    <!-- Leadoff -->
+        <div class="container">
+            <div class="row">   
+                <div class="col col-md-4">
+                    <span>
+                        <h2 class="centered"> Wanna Trade?</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias vitae qui sunt id sed atque assumenda pariatur dignissimos dicta suscipit molestias laboriosam aut ad error quam mollitia dolor, repellendus animi?</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    <!-- Leadoff End  -->
+    <!-- Cards  -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100" style="width: 18rem;">
+                        <img class="card-img-top" src="" alt="Nonprofit Word Map">
+                        <!-- Need to insert image source above-->
+                        <div class="card-body">
+                            <h5 class="card-title centered"> Are you a Non-Profit Business?</h5>
+                            <h6 class="card-subtitle mb-2 text-muted centered">We want to help you create a web presence</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, veniam! Adipisci neque, excepturi ad pariatur quam eos aspernatur error iure veritatis facere, laborum vitae architecto voluptatem minus molestias nobis natus.</p>
+                            <a href="#" class="btn btn-primary">Sign up as a Non-Profit Business</a>
+                        </div>
+                    </div>
+                </div>    
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100" style="width: 18rem;">
+                        <img class="card-img-top" src="/img/Developer.png" alt="Developers at the Computer">
+                        <!-- Need to insert image source above-->
+                        <div class="card-body">
+                            <h5 class="card-title centered">Are You A Developer?</h5>
+                            <h6 class="card-subtitle mb-2 text-muted centered">We want to help you gain Resume Experience</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Sign up as a Developer</a>
+                        </div>
+                    </div>
+                </div>  
+            </div>     
+        </div>
+    <!-- Cards End -->      
+    <!-- Bootstrap Scripts  -->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+     <!-- Tooltip Script   
+        <script>
+            $(function () {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script> --> 
 </body>
 </html>
