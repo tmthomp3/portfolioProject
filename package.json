@@ -24,11 +24,17 @@
   "devDependencies": {
     "copyfiles": "^2.2.0",
     "imagemin-cli": "^5.1.0",
+    "lite": "^4.0.5",
     "lite-server": "^2.5.4",
     "node-sass": "^4.14.1",
     "onchange": "^7.0.0",
     "parallelshell": "3.0.1",
     "rimraf": "^3.0.2",
+    "server": "^1.0.36",
     "usemin-cli": "^0.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0"
   }
 }
